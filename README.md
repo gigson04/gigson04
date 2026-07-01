@@ -15,3 +15,4 @@ I'm a frontend developer focused on crafting interfaces that are simple, intenti
 - 🎯 Goal: Build projects that are both functional and beautifully simple
 - 💡 I enjoy turning ideas into real, usable things on the web
 
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fgigson04&countColor=%23263759)
