@@ -1,84 +1,234 @@
-<div align="center">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gigson Aquino | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-<!-- Typing animation header -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&pause=1000&color=61DAFB&center=true&vCenter=true&width=600&lines=Hi+there%2C+I'm+YOUR_NAME+%F0%9F%91%8B;Full-Stack+Web+Developer;React+%7C+Node.js+%7C+JavaScript;Always+learning+something+new" alt="Typing SVG" />
-</a>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=61DAFB&height=150&section=header" width="100%"/>
-
+<!-- Animated gradient background (fixed, sits behind all content) -->
+<div class="bg-blobs" aria-hidden="true">
+  <span class="blob blob-1"></span>
+  <span class="blob blob-2"></span>
+  <span class="blob blob-3"></span>
+  <span class="blob blob-4"></span>
+  <span class="blob blob-5"></span>
 </div>
 
-### 🚀 About Me
+<!-- NAVBAR -->
+<header class="navbar">
+  <div class="nav-inner">
+    <a href="#" class="logo">
+      <span class="logo-mark">G</span> Gigson
+    </a>
+    <nav class="nav-links">
+      <a href="#about">About Me</a>
+      <a href="#experience">Experiences</a>
+      <a href="#works">My Works</a>
+    </nav>
+    <a href="#contact" class="btn btn-dark nav-cta">Get in touch <span>→</span></a>
+    <button class="burger" id="burger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
 
-- 🔭 I'm currently working on **exciting web projects**
-- 🌱 I'm currently learning **advanced React patterns & Node.js**
-- 💬 Ask me about **JavaScript, React, Node.js, APIs**
-- 📫 Reach me at **your.email@example.com**
-- ⚡ Fun fact: **I love clean code and good coffee**
+<!-- HERO / ABOUT -->
+<section class="hero" id="about">
+  <div class="hero-inner">
+    <div class="hero-photo">
+      <div class="clip"></div>
+      <div class="polaroid">
+   <img src="image.jpg" alt="Gigson Aquino" class="hero-img">
+      </div>
+    </div>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=61DAFB&height=2&width=100%" width="100%"/>
+    <div class="hero-content">
+      <h1 class="hand-heading">Let's get to know<br>about me closer</h1>
+      <h2 class="hero-role">Junior Developer</h2>
+      <p class="hero-bio">I build real-world web projects, craft compelling brand visuals, and turn ideas into clean, functional digital experiences. Early in my career but always learning, always shipping.</p>
+      <p class="hero-edu">🎓 BS Information Technology — Saint Mary's University</p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-dark">Let's Talk <span>→</span></a>
+        <a href="#" class="btn btn-outline">Download CV <span>⬇</span></a>
+      </div>
+    </div>
+  </div>
+</section>
 
-### 🛠️ Tech Stack
+<!-- WORK HISTORY -->
+<section class="section" id="experience">
+  <div class="container">
+    <span class="pill">My Journey</span>
+    <h2 class="hand-heading section-title">Experience 📌</h2>
 
-<div align="center">
+    <div class="timeline">
+      <div class="timeline-card">
+        <h3>Student in Saint Mary's University</h3>
+        <span class="year">2024</span>
+        <p class="role">Junior Developer</p>
+        <p>I am currently pursuing a degree in Information Technology at Saint Mary's University.</p>
+      </div>
+    
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
-![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Tailwind](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
-![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
-![VS Code](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
+      <div class="timeline-card">
+        <h3>Persuing Cybersecurity Career</h3>
+        <span class="year">2026</span>
+        <p class="role">Cybersecurity Trainee</p>
+        <p>Having an experience on networking and cybersecurity.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-</div>
+<!-- TECH STACK -->
+<section class="section section-alt">
+  <div class="container">
+    <h2 class="hand-heading section-title center">Tech Stack</h2>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=61DAFB&height=2&width=100%" width="100%"/>
+    <div class="stack-group">
+      <h4>Frontend Development</h4>
+      <div class="tag-row">
+        <span class="tag">🌐 HTML</span>
+        <span class="tag">🎨 CSS</span>
+        <span class="tag">🟨 JavaScript</span>
+      </div>
+    </div>
 
-### 📊 GitHub Stats
+    <div class="stack-group">
+      <h4>Backend Development</h4>
+      <div class="tag-row">
+        <span class="tag">🐬 MySQL</span>
+        <span class="tag">🐘 PostgreSQL</span>
+      </div>
+    </div>
 
-<div align="center">
+    <div class="stack-group">
+      <h4>DevOps</h4>
+      <div class="tag-row">
+        <span class="tag">🐧 Linux</span>
+        <span class="tag">🐙 Git Actions</span>
+      </div>
+    </div>
 
-<img src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true" width="48%"/>
+    <div class="stack-group">
+      <h4>Tools</h4>
+      <div class="tag-row">
+        <span class="tag">📐 Photoshop/Photopea </span>
+      </div>
+    </div>
+  </div>
+</section>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" width="70%"/>
+<!-- PROJECTS -->
+<section class="section" id="works">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <span class="pill">Projects highlight</span>
+        <h2 class="hand-heading section-title">My Projects Highlight</h2>
+      </div>
+      <a href="#" class="btn btn-dark">See More <span>→</span></a>
+    </div>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true" width="100%"/>
+    <div class="project-grid" id="projectGrid">
+      <!-- Cards injected by JS -->
+    </div>
+  </div>
+</section>
 
-</div>
+<!-- GRAPHIC DESIGN -->
+<section class="section section-alt">
+  <div class="container">
+    <span class="pill">Creative Work</span>
+    <h2 class="hand-heading section-title">Graphic Design</h2>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=61DAFB&height=2&width=100%" width="100%"/>
+    <div class="filter-row" id="filterRow">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="branding">Branding</button>
+      <button class="filter-btn" data-filter="poster">Poster</button>
+      <button class="filter-btn" data-filter="print">Print</button>
+      <button class="filter-btn" data-filter="ui">UI Design</button>
+    </div>
 
-### 🏆 GitHub Trophies
+    <div class="design-grid" id="designGrid">
+      <!-- Cards injected by JS -->
+    </div>
+  </div>
+</section>
 
-<div align="center">
-<img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&no-frame=true&row=1&column=7" width="100%"/>
-</div>
+<!-- TESTIMONIALS -->
+<section class="section">
+  <div class="container">
+    <span class="pill">Client's Feedback</span>
+    <h2 class="hand-heading section-title">Testimonials</h2>
 
-<img src="https://capsule-render.vercel.app/api?type=rect&color=61DAFB&height=2&width=100%" width="100%"/>
+    <div class="testimonial-track-wrap">
+      <div class="testimonial-track" id="testimonialTrack">
+        <!-- Cards injected by JS -->
+      </div>
+    </div>
+  </div>
+</section>
 
-### 🌐 Connect With Me
+<!-- CONTACT -->
+<section class="section" id="contact">
+  <div class="container narrow center">
+    <h2 class="hand-heading section-title">Have a project in mind?<br>Let's build something extraordinary.</h2>
 
-<div align="center">
+    <form class="contact-form" id="contactForm">
+      <div class="form-row">
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="example@youremail.com" required>
+        </div>
+      </div>
+      <div class="form-group">
+        <label>Subject</label>
+        <input type="text" placeholder="Subject" required>
+      </div>
+      <div class="form-group">
+        <label>Message</label>
+        <textarea rows="5" placeholder="Type your message here..." required></textarea>
+      </div>
+      <button type="submit" class="btn btn-dark">Send Message <span>➤</span></button>
+    </form>
+  </div>
+</section>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/YOUR_LINKEDIN)
-[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/YOUR_TWITTER)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white)](https://your-portfolio.com)
-[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+<!-- CTA BANNER -->
+<section class="section">
+  <div class="container">
+    <div class="cta-banner">
+      <span class="pill pill-outline">Gigson Aquino</span>
+      <h2 class="hand-heading">Excited to work together on<br>your next project?</h2>
+      <div class="hero-actions center">
+        <a href="#contact" class="btn btn-dark">Let's Talk <span>→</span></a>
+        <a href="#" class="btn btn-light">Download CV <span>⬇</span></a>
+      </div>
+    </div>
+  </div>
+</section>
 
-</div>
+<!-- FOOTER -->
+<footer class="footer">
+  <a href="#" class="logo">
+    <span class="logo-mark">G</span> Gigson
+  </a>
+  <p>Copyright © 2026 Gigson Aquino | All Rights Reserved</p>
+</footer>
 
-<div align="center">
+<div id="toast" class="toast">Message sent! I'll get back to you soon.</div>
 
-<!-- Animated wave GIF divider -->
-<img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" width="100%">
-
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&color=61DAFB&style=flat-square" alt="profile views" />
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=61DAFB&height=100&section=footer" width="100%"/>
+<script src="script.js"></script>
+</body>
+</html>
