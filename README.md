@@ -84,10 +84,10 @@ Gaining experience in networking and cybersecurity.
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=gigson04&show_icons=true&hide_border=true&title_color=FFFFFF&icon_color=FFFFFF&text_color=ffffff&bg_color=111111" width="48%"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gigson04&layout=compact&hide_border=true&title_color=FFFFFF&text_color=ffffff&bg_color=111111" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api?username=gigson04&show_icons=true&hide_border=true&theme=tokyonight" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gigson04&layout=compact&hide_border=true&theme=tokyonight" width="48%"/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=gigson04&hide_border=true&background=111111&ring=FFFFFF&fire=FFFFFF&currStreakLabel=FFFFFF" width="70%"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=gigson04&hide_border=true&theme=tokyonight" width="70%"/>
 
 </div>
 
