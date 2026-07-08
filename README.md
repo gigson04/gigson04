@@ -1,234 +1,112 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gigson Aquino | Portfolio</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
-</head>
-<body>
+<div align="center">
 
-<!-- Animated gradient background (fixed, sits behind all content) -->
-<div class="bg-blobs" aria-hidden="true">
-  <span class="blob blob-1"></span>
-  <span class="blob blob-2"></span>
-  <span class="blob blob-3"></span>
-  <span class="blob blob-4"></span>
-  <span class="blob blob-5"></span>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,100:F5B942&height=180&section=header&text=Gigson%20Aquino&fontSize=45&fontColor=F5B942&animation=fadeIn&fontAlignY=38" width="100%"/>
+
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=22&pause=1000&color=F5B942&background=111111&center=true&vCenter=true&width=600&height=50&lines=Junior+Developer;Building+real-world+web+projects;Cybersecurity+Trainee+%F0%9F%94%92;Always+learning%2C+always+shipping" alt="Typing SVG" />
+</a>
+
 </div>
 
-<!-- NAVBAR -->
-<header class="navbar">
-  <div class="nav-inner">
-    <a href="#" class="logo">
-      <span class="logo-mark">G</span> Gigson
-    </a>
-    <nav class="nav-links">
-      <a href="#about">About Me</a>
-      <a href="#experience">Experiences</a>
-      <a href="#works">My Works</a>
-    </nav>
-    <a href="#contact" class="btn btn-dark nav-cta">Get in touch <span>→</span></a>
-    <button class="burger" id="burger" aria-label="Toggle menu">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</header>
+<br>
 
-<!-- HERO / ABOUT -->
-<section class="hero" id="about">
-  <div class="hero-inner">
-    <div class="hero-photo">
-      <div class="clip"></div>
-      <div class="polaroid">
-   <img src="image.jpg" alt="Gigson Aquino" class="hero-img">
-      </div>
-    </div>
+## 👋 Let's get to know about me closer
 
-    <div class="hero-content">
-      <h1 class="hand-heading">Let's get to know<br>about me closer</h1>
-      <h2 class="hero-role">Junior Developer</h2>
-      <p class="hero-bio">I build real-world web projects, craft compelling brand visuals, and turn ideas into clean, functional digital experiences. Early in my career but always learning, always shipping.</p>
-      <p class="hero-edu">🎓 BS Information Technology — Saint Mary's University</p>
-      <div class="hero-actions">
-        <a href="#contact" class="btn btn-dark">Let's Talk <span>→</span></a>
-        <a href="#" class="btn btn-outline">Download CV <span>⬇</span></a>
-      </div>
-    </div>
-  </div>
-</section>
+I build real-world web projects, craft compelling brand visuals, and turn ideas into clean, functional digital experiences. Early in my career but always learning, always shipping.
 
-<!-- WORK HISTORY -->
-<section class="section" id="experience">
-  <div class="container">
-    <span class="pill">My Journey</span>
-    <h2 class="hand-heading section-title">Experience 📌</h2>
+🎓 **BS Information Technology** — Saint Mary's University
 
-    <div class="timeline">
-      <div class="timeline-card">
-        <h3>Student in Saint Mary's University</h3>
-        <span class="year">2024</span>
-        <p class="role">Junior Developer</p>
-        <p>I am currently pursuing a degree in Information Technology at Saint Mary's University.</p>
-      </div>
-    
+<div align="center">
 
-      <div class="timeline-card">
-        <h3>Persuing Cybersecurity Career</h3>
-        <span class="year">2026</span>
-        <p class="role">Cybersecurity Trainee</p>
-        <p>Having an experience on networking and cybersecurity.</p>
-      </div>
-    </div>
-  </div>
-</section>
+[![Get in touch](https://img.shields.io/badge/Get%20in%20touch-→-111111?style=for-the-badge)](mailto:your.email@example.com)
+[![Download CV](https://img.shields.io/badge/Download%20CV-⬇-F5B942?style=for-the-badge&logoColor=111111)](#)
 
-<!-- TECH STACK -->
-<section class="section section-alt">
-  <div class="container">
-    <h2 class="hand-heading section-title center">Tech Stack</h2>
+</div>
 
-    <div class="stack-group">
-      <h4>Frontend Development</h4>
-      <div class="tag-row">
-        <span class="tag">🌐 HTML</span>
-        <span class="tag">🎨 CSS</span>
-        <span class="tag">🟨 JavaScript</span>
-      </div>
-    </div>
+<br>
 
-    <div class="stack-group">
-      <h4>Backend Development</h4>
-      <div class="tag-row">
-        <span class="tag">🐬 MySQL</span>
-        <span class="tag">🐘 PostgreSQL</span>
-      </div>
-    </div>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=F5B942&height=3&width=100%" width="100%"/>
 
-    <div class="stack-group">
-      <h4>DevOps</h4>
-      <div class="tag-row">
-        <span class="tag">🐧 Linux</span>
-        <span class="tag">🐙 Git Actions</span>
-      </div>
-    </div>
+## 📌 Experience
 
-    <div class="stack-group">
-      <h4>Tools</h4>
-      <div class="tag-row">
-        <span class="tag">📐 Photoshop/Photopea </span>
-      </div>
-    </div>
-  </div>
-</section>
+<table>
+<tr>
+<td width="50%" valign="top">
 
-<!-- PROJECTS -->
-<section class="section" id="works">
-  <div class="container">
-    <div class="section-head">
-      <div>
-        <span class="pill">Projects highlight</span>
-        <h2 class="hand-heading section-title">My Projects Highlight</h2>
-      </div>
-      <a href="#" class="btn btn-dark">See More <span>→</span></a>
-    </div>
+**Student in Saint Mary's University**
+`2024`
 
-    <div class="project-grid" id="projectGrid">
-      <!-- Cards injected by JS -->
-    </div>
-  </div>
-</section>
+Junior Developer
 
-<!-- GRAPHIC DESIGN -->
-<section class="section section-alt">
-  <div class="container">
-    <span class="pill">Creative Work</span>
-    <h2 class="hand-heading section-title">Graphic Design</h2>
+Currently pursuing a degree in Information Technology at Saint Mary's University.
 
-    <div class="filter-row" id="filterRow">
-      <button class="filter-btn active" data-filter="all">All</button>
-      <button class="filter-btn" data-filter="branding">Branding</button>
-      <button class="filter-btn" data-filter="poster">Poster</button>
-      <button class="filter-btn" data-filter="print">Print</button>
-      <button class="filter-btn" data-filter="ui">UI Design</button>
-    </div>
+</td>
+<td width="50%" valign="top">
 
-    <div class="design-grid" id="designGrid">
-      <!-- Cards injected by JS -->
-    </div>
-  </div>
-</section>
+**Pursuing Cybersecurity Career**
+`2026`
 
-<!-- TESTIMONIALS -->
-<section class="section">
-  <div class="container">
-    <span class="pill">Client's Feedback</span>
-    <h2 class="hand-heading section-title">Testimonials</h2>
+Cybersecurity Trainee
 
-    <div class="testimonial-track-wrap">
-      <div class="testimonial-track" id="testimonialTrack">
-        <!-- Cards injected by JS -->
-      </div>
-    </div>
-  </div>
-</section>
+Gaining experience in networking and cybersecurity.
 
-<!-- CONTACT -->
-<section class="section" id="contact">
-  <div class="container narrow center">
-    <h2 class="hand-heading section-title">Have a project in mind?<br>Let's build something extraordinary.</h2>
+</td>
+</tr>
+</table>
 
-    <form class="contact-form" id="contactForm">
-      <div class="form-row">
-        <div class="form-group">
-          <label>Name</label>
-          <input type="text" placeholder="Your name" required>
-        </div>
-        <div class="form-group">
-          <label>Email</label>
-          <input type="email" placeholder="example@youremail.com" required>
-        </div>
-      </div>
-      <div class="form-group">
-        <label>Subject</label>
-        <input type="text" placeholder="Subject" required>
-      </div>
-      <div class="form-group">
-        <label>Message</label>
-        <textarea rows="5" placeholder="Type your message here..." required></textarea>
-      </div>
-      <button type="submit" class="btn btn-dark">Send Message <span>➤</span></button>
-    </form>
-  </div>
-</section>
+<img src="https://capsule-render.vercel.app/api?type=rect&color=F5B942&height=3&width=100%" width="100%"/>
 
-<!-- CTA BANNER -->
-<section class="section">
-  <div class="container">
-    <div class="cta-banner">
-      <span class="pill pill-outline">Gigson Aquino</span>
-      <h2 class="hand-heading">Excited to work together on<br>your next project?</h2>
-      <div class="hero-actions center">
-        <a href="#contact" class="btn btn-dark">Let's Talk <span>→</span></a>
-        <a href="#" class="btn btn-light">Download CV <span>⬇</span></a>
-      </div>
-    </div>
-  </div>
-</section>
+## 🛠️ Tech Stack
 
-<!-- FOOTER -->
-<footer class="footer">
-  <a href="#" class="logo">
-    <span class="logo-mark">G</span> Gigson
-  </a>
-  <p>Copyright © 2026 Gigson Aquino | All Rights Reserved</p>
-</footer>
+**Frontend Development**
 
-<div id="toast" class="toast">Message sent! I'll get back to you soon.</div>
+![HTML](https://img.shields.io/badge/HTML-111111?style=for-the-badge&logo=html5&logoColor=F5B942)
+![CSS](https://img.shields.io/badge/CSS-111111?style=for-the-badge&logo=css3&logoColor=F5B942)
+![JavaScript](https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=F5B942)
 
-<script src="script.js"></script>
-</body>
-</html>
+**Backend Development**
+
+![MySQL](https://img.shields.io/badge/MySQL-111111?style=for-the-badge&logo=mysql&logoColor=F5B942)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql&logoColor=F5B942)
+
+**DevOps**
+
+![Linux](https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux&logoColor=F5B942)
+![GitHub Actions](https://img.shields.io/badge/Git%20Actions-111111?style=for-the-badge&logo=githubactions&logoColor=F5B942)
+
+**Tools**
+
+![Photoshop](https://img.shields.io/badge/Photoshop%2FPhotopea-111111?style=for-the-badge&logo=adobephotoshop&logoColor=F5B942)
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=F5B942&height=3&width=100%" width="100%"/>
+
+## 📊 GitHub Stats
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=gigson04&show_icons=true&hide_border=true&title_color=F5B942&icon_color=F5B942&text_color=ffffff&bg_color=111111" width="48%"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gigson04&layout=compact&hide_border=true&title_color=F5B942&text_color=ffffff&bg_color=111111" width="48%"/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=gigson04&hide_border=true&background=111111&ring=F5B942&fire=F5B942&currStreakLabel=F5B942" width="70%"/>
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=F5B942&height=3&width=100%" width="100%"/>
+
+## 🌐 Connect With Me
+
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin&logoColor=F5B942)](https://linkedin.com/in/YOUR_LINKEDIN)
+[![Facebook](https://img.shields.io/badge/Facebook-111111?style=for-the-badge&logo=facebook&logoColor=F5B942)](https://facebook.com/YOUR_FACEBOOK)
+[![Gmail](https://img.shields.io/badge/Gmail-111111?style=for-the-badge&logo=gmail&logoColor=F5B942)](mailto:your.email@example.com)
+
+<img src="https://komarev.com/ghpvc/?username=gigson04&color=F5B942&style=for-the-badge&label=PROFILE+VIEWS" alt="profile views" />
+
+</div>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:111111,100:F5B942&height=100&section=footer" width="100%"/>
+
+<div align="center">
+<sub>Copyright © 2026 Gigson Aquino | All Rights Reserved</sub>
+</div>
