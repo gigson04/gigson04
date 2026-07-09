@@ -16,12 +16,6 @@ I build real-world web projects, craft compelling brand visuals, and turn ideas 
 
 🎓 **BS Information Technology** — Saint Mary's University
 
-<div align="center">
-
-[![Get in touch](https://img.shields.io/badge/Get%20in%20touch-→-111111?style=for-the-badge)](mailto:your.email@example.com)
-[![Download CV](https://img.shields.io/badge/Download%20CV-⬇-FFFFFF?style=for-the-badge&logoColor=111111)](#)
-
-</div>
 
 <br>
 
