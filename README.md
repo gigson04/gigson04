@@ -27,7 +27,7 @@ I build real-world web projects, craft compelling brand visuals, and turn ideas 
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=FFFFFF&height=3&width=100%" width="100%"/>
 
-## 📌 Experience
+## 📌 Experience 
 
 <table>
 <tr>
