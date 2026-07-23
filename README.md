@@ -22,25 +22,6 @@ Fastest path through any system: database, CSS bug, or deploy pipeline.
 
 Current Status: <span style="color:#00ff00">Building &amp; Breaking Things</span>
   </pre>
-<!--
-  <h2>📂 PROJECTS/</h2>
--->
-<!--
-  <table>
-    <tr>
-      <td><strong>Project Name</strong></td>
-      <td><strong>Tech</strong></td>
-      <td><strong>Link</strong></td>
-    </tr>
-    <!--
-    <tr>
-      <td>TARA, NV!</td>
-      <td>React, Supabase</td>
-      <td><a href="#">[ LIVE ]</a></td>
-    </tr>
-    <!-- Add more rows here -->
-    
-  </table>
 
   <br>
 
