@@ -29,7 +29,6 @@ Current Status: <span style="color:#00ff00">Building &amp; Breaking Things</span
   <p>
     <a href="mailto:youremail@example.com">📧 Email</a> • 
     <a href="https://github.com/gigson04">🐙 GitHub</a> • 
-    <a href="https://linkedin.com/in/yourname">💼 LinkedIn</a>
   </p>
 
   <p>
